@@ -9,3 +9,5 @@ def test_rate_10_returns_acceptable():
     assert rate_note(10) == "acceptable"
 def test_rate_12_returns_well():
     assert rate_note(12) == "well"
+def test_rate_11_returns_acceptable():
+    assert rate_note(11) == "acceptable"
