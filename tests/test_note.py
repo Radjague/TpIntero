@@ -1,5 +1,4 @@
-def rate_note(param):
-    pass
+from src.note import rate_note
 
 
 def test_rate_note_is_callable():
