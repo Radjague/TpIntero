@@ -5,5 +5,7 @@ def rate_note(note:int) -> str:
      return "acceptable"
    if 12 <= note < 14 :
        return "well"
-   return "very well"
+   if note == 14:
+       return "very well"
+   return "excellent"
 
