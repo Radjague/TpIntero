@@ -9,4 +9,6 @@ def test_rate_note_returns_expected_rating(note, expected):
 
 def test_rate_12_returns_well():
     assert rate_note(12) == "well"
+def test_rate_14_returns_very_good():
+    assert rate_note(14) == "very good"
 
